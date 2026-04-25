@@ -1,0 +1,18 @@
+{
+  "version": "4.5.9",
+  "phase": "Elite",
+  "updated": "2026-04-21",
+  "api_version": "5.4.1",
+  "changes": [
+    "v4.5.9: Fix survey questionnaire not rendering on enumerator page — syntax error in survey-core.js, survey-wrap background, secs-wrap bottom padding",
+    "v4.5: Individual user delete, village hyphen rules, sync fix, institution admin header cleanup",
+    "v4.2: Medisync logo intro, dark mode, smart forms, resume survey, trust layer, enhanced toasts, page transitions, premium focus states, card depth, typography polish",
+    "Removed direct Supabase calls — all requests go through secure API",
+    "Added api-client.js with full HS.* SDK",
+    "JWT-based authentication",
+    "Push notification support (Web Push + FCM)",
+    "Google and Microsoft SSO",
+    "Dynamic survey builder support",
+    "Offline sync upgraded to use /api/survey/submit"
+  ]
+}
